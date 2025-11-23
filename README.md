@@ -1,7 +1,4 @@
 # threshold_PGG
-The behavioral task used in this project was a modified version of the binary threshold public goods game (PGG), implemented entirely in PsychoPy to allow full control over stimulus presentation, timing, and integration of social feedback mechanisms.
-PsychoPy Task Description (≈350 words)
-
 The behavioral task used in this study was a fully customized implementation of a binary threshold public goods game (PGG), developed from the ground up in PsychoPy to enable precise manipulation of both accuracy-dependent and accuracy-independent external outcomes. Although the conceptual structure was inspired by earlier MATLAB/Psychtoolbox versions used in PGG research, the present study required a redesigned task architecture, new feedback mechanisms, and dynamic agent behavior. For this reason, the entire task was rebuilt in PsychoPy to ensure full experimental control and compatibility with Python-based simulations.
 
 Each trial began with the participant receiving a single token. The participant then had up to five seconds to choose whether to contribute the token to the public pool or withhold it. Group success depended on whether total contributions reached the required threshold (k=2 or k=4), allowing systematic comparison across different uncertainty levels. Monetary payoffs were tied to this outcome, creating accuracy-dependent external rewards because the participant’s payoff depended on whether their belief about group participation was correct.
